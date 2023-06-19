@@ -1,9 +1,13 @@
 import logo from './logo.svg';
+import User from './components/User';
+import Button from './components/component2';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <User />
+      <Button />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
